@@ -16,6 +16,10 @@ render/
 *.pdf
 *.log
 
+# ...but keep the ready-to-open examples
+!examples/示例_*.pptx
+!examples/示例_*.docx
+
 # User-supplied images: never commit copyrighted portraits/photos
 red_gold_deck/assets/portraits/*
 !red_gold_deck/assets/portraits/.gitkeep
