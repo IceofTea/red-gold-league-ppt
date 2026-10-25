@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Generated decks and renders
+out/
+render/
+*.pptx
+*.docx
+*.pdf
+*.log
+
+# User-supplied images: never commit copyrighted portraits/photos
+red_gold_deck/assets/portraits/*
+!red_gold_deck/assets/portraits/.gitkeep
+red_gold_deck/assets/scenes/*
+!red_gold_deck/assets/scenes/.gitkeep
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Test / tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
